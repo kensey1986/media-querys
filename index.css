@@ -1,0 +1,62 @@
+/* body div img{
+    width: 1024;
+} */
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+
+
+    body {
+        padding: 10px;
+        background: red;
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        border: 10px solid #000000;
+    }
+
+
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) {
+
+    
+    body{
+        background-color: yellow;
+    }
+    .parrafo{
+        background: blueviolet;
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    body{
+        background-color: rgb(56, 56, 14);
+    }
+    .parrafo{
+        background: goldenrod;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        background-color: rgb(140, 0, 255);
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        background-color: rgb(109, 8, 55);
+    }
+}
